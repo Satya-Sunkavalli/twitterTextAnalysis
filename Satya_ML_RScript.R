@@ -7,12 +7,19 @@
 setwd("C:/Users/bunny/Desktop/Satya ML")
 
 ######### Installing and loading required Libraries #######################
+install.packages("tm")
 library(tm)
+install.packages('e1071', dependencies=TRUE)
 library(e1071)
+install.packages('dplyr', dependencies=TRUE)
 library(dplyr)
+install.packages('gradDescent', dependencies=TRUE)
 library(gradDescent)
+install.packages('ggplot2', dependencies=TRUE)
 library(ggplot2)
+install.packages('data.table', dependencies=TRUE)
 library(data.table)
+install.packages('wordcloud', dependencies=TRUE)
 library(wordcloud)
 
 ######################### DATA COLLECTION #################################
