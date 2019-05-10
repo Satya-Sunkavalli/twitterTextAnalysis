@@ -4,7 +4,7 @@
 ###########################################################################
 
 #################### Setting Current Directory ############################
-setwd("C:/Users/bunny/Desktop/Satya ML")
+#setwd("C:/Users/bunny/Desktop/Satya ML")
 
 ######### Installing and loading required Libraries #######################
 install.packages("tm")
